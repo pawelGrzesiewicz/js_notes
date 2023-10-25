@@ -85,3 +85,25 @@ Array.prototype.myMap = function (fn) {
 }
 
 // [1, 2, 3].myMap(() => 43);
+
+// // syntactic sugar
+// class Book {
+//     constructor(isbn, name) {
+//         this.isbn = isbn;
+//         this.name = name;
+//     }
+//
+//     read(){
+//         return this.name.slice(0, 5);
+//     }
+// }
+//
+//
+// function Book1(isbn, name){
+//     this.isbn = isbn;
+//     this.name = name;
+// }
+//
+// Book1.prototype.read = function() {
+//     return this.name.slice(0, 5);
+// }
